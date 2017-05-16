@@ -1,37 +1,240 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/krissummerlin/contest/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<link rel="apple-touch-icon" href="https://pbs.twimg.com/media/C-tPJw9XsAEtHn9.jpg">
+<link rel="apple-touch-startup-image" href="http://app.homefabulo.us/vwbook/clean-splash-
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+320x460.png">
+<meta name="apple-mobile-web-app-title" content="AppTitle">
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" 
 
-- Bulleted
-- List
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script 
 
-1. Numbered
-2. List
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <style>
+   p1 {
+    color: hotpink;
+}
+   .btn { width: 250px; margin-bottom: 10px;}
+  
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+  background-color: #1abc9c;
+  float: right;
+  padding-right:30px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span 
 
-### Jekyll Themes
+aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="myModalLabel">
+        <font color="gray"><center>
+        Book a cleaning in seconds!  </center>
+        </h2>
+        <br>
+        Need help? </font><p><a href="http://www.w3.org/">Call or message us</a> 
+        </p>
+  
+      </div>
+      <div class="modal-body">
+  <style>
+   #header {
+     position: fixed;
+     top: 0px;
+     height: 50px; /* Change with top of #container */
+     color: #eee;
+     background-color: #ccc;
+     width: 100%;
+   }
+  </style>
+ 
+<iframe src="http://travissummerlin.com/frame" scrolling="yes" height="700px" width="100%" 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/krissummerlin/contest/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+style="border:none; "></iframe>
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+
+  <img src="https://pbs.twimg.com/media/C-Bdi1nXsAIeObO.jpg" class="img-responsive img-
+
+circle margin" style="display:inline" alt="Bird" width="250" height="250">
+  <h3> Professional cleanings in a snap!</h3>
+  <br>
+  <p>Ready to get started? Call or book online in minutes</p>
+  <br>
+
+    
+</div>
+
+
+
+
+
+  
+
+  
+
+
+<!-- Third Container (Grid) -->
+<section id="paas">
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">How it works</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Sign up at <a href="http://cleantriad.com">cleantriad.com</a> by entering your 
+
+email.</p>
+     <center> <img src="http://cleantriad.com/assets/clean-contest-scrnshot-1.png" 
+
+class="img-responsive margin" style=" width="250" height="250" alt="slide 1"></center>
+    </div>
+    <div class="col-sm-4">
+      <p>Upon sign up you'll get a special link assigned to the email you used.Every time 
+
+some one clicks or signs up with this link you get a point. Clicks are worth 1 point each 
+
+and sign up are worth 10 points each. </p>
+     <center> <img src="http://cleantriad.com/assets/clean-contest-scrnshot-2.png" 
+
+class="img-responsive margin" style=" width="250" height="250" alt="slide 1"></center>
+    </div>
+    <div class="col-sm-4">
+      <p>You'll see several sharing options, like, facebook send, tweet, linked in share, 
+
+and email. Each option already has your special link applied. Optionally, you can copy the 
+
+link and share it any way you like.</p>
+     <center> <img src="http://cleantriad.com/assets/clean-contest-scrnshot-3.png" 
+
+class="img-responsive margin" style=" width="250" height="250" alt="slide 1"></center>
+    </div>
+    <div class="col-sm-4">
+      <p>To track the performance of your link, simply go back to <a 
+
+href="http://cleantriad.com">cleantriad.com</a> at any time and re-enter your email. 
+
+You'll find your link, sharing options, and at the bottom you'll see your real time live 
+
+stats showing sign ups and clicks your link generates. </p>
+     <center> <img src="http://cleantriad.com/assets/clean-contest-scrnshot-4.png" 
+
+class="img-responsive margin" style=" width="250" height="250" alt="slide 1"></center>
+    </div>
+    <div class="col-sm-4">
+      <p>To see who's generating the most points, just go to <a 
+
+href="http://cleantriad.com">cleantriad.com/leaders</a> and you can see who's gaining the 
+
+most points. </p>
+     <center> <img src="http://cleantriad.com/assets/clean-contest-scrnshot-5.png" 
+
+class="img-responsive margin" style=" width="250" height="250" alt="slide 1"></center>
+    </div>
+    <p>That's it. If you've already signed up you can get started by sharing your unique 
+
+link. If you haven't signed up yet get started below.</p>
+  
+ 
+    </div>
+    </div>
+    
+
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-left">
+<center>
+
+<a href="#paas" class="btn btn-primary btn-lg">
+    <span class="glyphicon glyphicon"></span> Get started!
+    
+  </a></center>
+
+</footer>
+
+
+</body>
+
+</html>
+
+
+
+   
+
+     
+  
+  
+
+
